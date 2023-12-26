@@ -391,7 +391,7 @@ class Rectangle(Shape):
 rectangle = Rectangle("blue",9,10)
 rectangle.display_color_and_area()'''
 
-class Formulas:
+'''class Formulas:
     def add(self, a, b):
         # c = a+b
         print("add = "
@@ -430,4 +430,74 @@ class Formulas:
 
         print(guess)
 
-    
+    '''
+
+
+'''class Addition:
+
+    def add(self,a=0,b=0,c=0):
+        print("Addition is ",a+b+c)
+
+s = Addition()
+s.add(12,12)
+s.add(12,12,12)
+s.add(12)
+s.add()'''
+
+# method overloading
+
+'''class Calci:
+    def add(self,num1=None,num2=None,num3=None):
+        if num1!=None and num2!=None and num3!=None:
+            print("Addition is",num1+num2+num3)
+        elif num1!=None and num2!=None:
+            print("Addition is ",num1+num2)
+        else:
+            print("incorrect value provided")
+
+a = Calci()
+a.add(12,12)
+a.add(12,12,12)
+a.add()
+'''
+
+'''class Area:
+    def area(self,radius=0,length=0,breadth=0,base =0,height=0,circle=0,square=0,ractangle=0,triangle=0):
+        if square!=0:
+            print("area os square is ",length*length)
+        elif ractangle!=0:
+            print("area of ractangle is ",length*breadth)
+        elif triangle !=0:
+            print("area of triangle is ",0.5*base*height)
+        elif circle!=0:
+            print("area of circle is",3.14*radius*radius)
+        else:
+            print("Formula is not specified")
+
+obj = Area()
+obj.area(base=12,height=24,triangle=1)
+obj.area(length=12,square=1)
+obj.area(radius=3.5,circle=1)
+'''
+'''def count_notes(a):
+    # a = input("please input a no. in multiples of 10")
+         b = a%500
+         c = b%200
+         d = c % 100
+         e = d % 50
+         f = e % 20
+         g = f%10
+         h =g%5
+         i =h%2
+         print("notes of 500 =", a//500)
+         print("notes of 200 =", b//200)
+         print("notes of 100 =", c//100)
+         print("notes of 50 =", d//50)
+         print("notes of 20 =", e//20)
+         print("notes of 10 =", f//10)
+         print("notes of 5 =", g // 5)
+         print("notes of 2 =", h // 2)
+         print("notes of 1 =", i // 1)
+
+count_notes(888)'''
+
